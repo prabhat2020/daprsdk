@@ -1,0 +1,31 @@
+RUN	com.tcs.service.perf.PTSimulationTemplate	ptsimulationtemplate	1607433053194	Template Description	3.3.1
+USER	Template Check	9	START	1607433056174	1607433056174
+USER	Template Check	2	START	1607433056172	1607433056172
+USER	Template Check	6	START	1607433056173	1607433056173
+USER	Template Check	10	START	1607433056174	1607433056174
+USER	Template Check	1	START	1607433056172	1607433056172
+USER	Template Check	4	START	1607433056172	1607433056172
+USER	Template Check	5	START	1607433056172	1607433056172
+USER	Template Check	3	START	1607433056172	1607433056172
+USER	Template Check	7	START	1607433056173	1607433056173
+USER	Template Check	8	START	1607433056174	1607433056174
+REQUEST	9		GetModel-API	1607433056240	1607433058476	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8097
+REQUEST	5		GetModel-API	1607433056239	1607433058476	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8097
+REQUEST	1		GetModel-API	1607433056239	1607433058476	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8097
+REQUEST	4		GetModel-API	1607433056239	1607433058476	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8097
+REQUEST	3		GetModel-API	1607433056239	1607433058476	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8097
+REQUEST	2		GetModel-API	1607433056240	1607433058476	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8097
+REQUEST	10		GetModel-API	1607433056239	1607433058476	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8097
+REQUEST	8		GetModel-API	1607433056239	1607433058476	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8097
+REQUEST	6		GetModel-API	1607433056240	1607433058476	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8097
+REQUEST	7		GetModel-API	1607433056239	1607433058476	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8097
+USER	Template Check	8	END	1607433056174	1607433058537
+USER	Template Check	1	END	1607433056172	1607433058537
+USER	Template Check	5	END	1607433056172	1607433058537
+USER	Template Check	2	END	1607433056172	1607433058537
+USER	Template Check	7	END	1607433056173	1607433058537
+USER	Template Check	10	END	1607433056174	1607433058537
+USER	Template Check	3	END	1607433056172	1607433058537
+USER	Template Check	9	END	1607433056174	1607433058537
+USER	Template Check	4	END	1607433056172	1607433058537
+USER	Template Check	6	END	1607433056173	1607433058537

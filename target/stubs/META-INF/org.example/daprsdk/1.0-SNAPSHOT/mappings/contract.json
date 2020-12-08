@@ -1,5 +1,5 @@
 {
-  "id" : "725a7131-2ae2-4775-8794-cd975a34a051",
+  "id" : "aae14724-7397-449a-8293-8ab98b308688",
   "request" : {
     "url" : "/api/v1/service-template/model/1",
     "method" : "GET"
@@ -9,5 +9,5 @@
     "body" : "{\"responseCode\":\"200\",\"responseDescription\":\"SUCCESS\",\"response\":{\"id\":\"1\",\"modId\":\"101\",\"modDesc\":\"Sample\"}}",
     "transformers" : [ "response-template" ]
   },
-  "uuid" : "725a7131-2ae2-4775-8794-cd975a34a051"
+  "uuid" : "aae14724-7397-449a-8293-8ab98b308688"
 }

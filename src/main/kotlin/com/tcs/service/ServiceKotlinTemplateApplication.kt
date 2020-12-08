@@ -12,10 +12,10 @@ class ServiceKotlinTemplateApplication
 fun main(args: Array<String>) {
 
     runApplication<ServiceKotlinTemplateApplication>(*args)
-    val SECRET_STORE_NAME: String = "weeuaksdelkv02-new"
+    val SECRET_STORE_NAME: String = "azurekeyvault"
 
     val JSON_SERIALIZER = ObjectMapper()
-    val secretKey = "dbconn"
+    val secretKey = "deliverymomentdbapi"
     val client : DaprClient = DaprClientBuilder().build()
     println(client)
 
